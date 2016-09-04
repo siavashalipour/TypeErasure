@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C84AE791D7BF94400C9586C /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C84AE781D7BF94400C9586C /* DetailViewController.swift */; };
 		F05019EE1D7909DB00E6039E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05019ED1D7909DB00E6039E /* AppDelegate.swift */; };
 		F05019F01D7909DB00E6039E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F05019EF1D7909DB00E6039E /* ViewController.swift */; };
 		F05019F31D7909DB00E6039E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F05019F11D7909DB00E6039E /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C84AE781D7BF94400C9586C /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F05019EA1D7909DB00E6039E /* TypeErasure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TypeErasure.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05019ED1D7909DB00E6039E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F05019EF1D7909DB00E6039E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				F05019ED1D7909DB00E6039E /* AppDelegate.swift */,
 				F05019EF1D7909DB00E6039E /* ViewController.swift */,
+				7C84AE781D7BF94400C9586C /* DetailViewController.swift */,
 				F05019F11D7909DB00E6039E /* Main.storyboard */,
 				F05019F41D7909DB00E6039E /* Assets.xcassets */,
 				F05019F61D7909DB00E6039E /* LaunchScreen.storyboard */,
@@ -91,11 +94,12 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = MobileDen;
 				TargetAttributes = {
 					F05019E91D7909DB00E6039E = {
 						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -135,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C84AE791D7BF94400C9586C /* DetailViewController.swift in Sources */,
 				F05019F01D7909DB00E6039E /* ViewController.swift in Sources */,
 				F05019EE1D7909DB00E6039E /* AppDelegate.swift in Sources */,
 			);
@@ -255,6 +260,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.MobileDen.TypeErasure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -266,6 +272,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = au.com.MobileDen.TypeErasure;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -288,6 +296,7 @@
 				F05019FE1D7909DB00E6039E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
